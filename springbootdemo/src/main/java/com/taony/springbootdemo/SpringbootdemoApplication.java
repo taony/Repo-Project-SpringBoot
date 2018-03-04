@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-@ComponentScan("com.taony.springbootdemo.web")
+@ComponentScan(basePackages={"com.taony.springbootdemo.web","com.taony.springbootdemo.api"})
 public class SpringbootdemoApplication {
 
 	public static void main(String[] args) {
