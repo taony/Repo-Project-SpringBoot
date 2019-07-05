@@ -1,0 +1,10 @@
+spring.datasource.test1.driver-class-name=com.microsoft.sqlserver.jdbc.SQLServerDriver
+spring.datasource.test1.jdbc-url=jdbc:sqlserver://localhost:1433;DatabaseName=ajax
+spring.datasource.test1.username=sherry
+spring.datasource.test1.password=xiaoai
+spring.mvc.view.prefix=/views/
+spring.mvc.view.suffix=.jsp
+spring.datasource.test2.driver-class-name=com.mysql.jdbc.Driver
+spring.datasource.test2.jdbc-url=jdbc:mysql://127.0.0.1:3306/test
+spring.datasource.test2.username=root
+spring.datasource.test2.password=123456
